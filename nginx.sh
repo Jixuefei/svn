@@ -29,7 +29,7 @@ sed -ri 's/\_params/\.conf/' /usr/local/nginx/conf/nginx.conf
 ss -aupltn | grep :80
 ss -aupltn | grep :9000
 ss -aupltn | grep :3306
-
+ss -aupltn | grep :8080
 
 
 
